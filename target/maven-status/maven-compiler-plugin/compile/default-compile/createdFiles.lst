@@ -1,6 +1,13 @@
-Cliente.class
-Main.class
 listaClientes.class
-ListaReservas.class
+PanelClientes.class
+PanelHabitaciones.class
+Cliente.class
 Reserva.class
+PanelReservas.class
+Main.class
+ListaReservas.class
+VentanaPrincipal.class
+PanelClientes$1.class
+PanelReservas$1.class
+PanelHabitaciones$1.class
 Habitacion.class
