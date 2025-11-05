@@ -36,10 +36,15 @@ public class VentanaPrincipal extends JFrame {
     private JPanel crearPanelInicio() {
         JPanel panel = new JPanel(new BorderLayout());
         panel.setBackground(new Color(240, 248, 255));
+        JPanel panelBotones = new JPanel(new FlowLayout());
         
         // Panel superior con título (setBackground, Font, Color) y agregar al panel
-       
         
+        JButton btnCrear = new JButton("buton");
+        btnCrear.setBackground(new Color(60, 179, 113));
+        btnCrear.setForeground(Color.WHITE);
+        panelBotones.add(btnCrear);
+        panel.add(panelBotones);
         // Panel central con información (GridBagLayout, setBackground, Insets, JLabel, JTextArea)
         
         return panel;
